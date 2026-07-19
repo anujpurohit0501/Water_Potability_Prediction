@@ -12,7 +12,7 @@ st.set_page_config(
 # Model Load karne ka function
 @st.cache_resource
 def load_model():
-    with open("water_model.pkl", "rb") as file:
+    with open("water_model (1).pkl", "rb") as file:
         model = pickle.load(file)
     return model
 
